@@ -21,7 +21,7 @@ $page="home";
 		<div id="shell" class="container">
 			<img src="img/plax/nomover.png" alt="">
 			<img src="img/plax/table.png" data-xrange="20" data-yrange="20" alt="Table" id="plax-table">
-			<img src="img/plax/mover.png" data-xrange="20" data-yrange="20" alt="Table" id="plax-moviles">
+			<img src="img/plax/mover.png" data-xrange="35" data-yrange="30" alt="Table" id="plax-moviles">
 		</div>
 	</section>
 	<!-- /section featured -->
@@ -252,8 +252,6 @@ $page="home";
 			
 		</div>
 	</section>
-
-	
 	<section id="works">
 		<div class="container">
 			<div class="row">

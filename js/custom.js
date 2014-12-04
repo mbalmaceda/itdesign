@@ -1,8 +1,6 @@
 /*global jQuery:false */
 jQuery(document).ready(function($) {
 "use strict";
-
-		
 	(function() {
 
 		var $menu = $('.navigation nav'),
@@ -41,7 +39,6 @@ jQuery(document).ready(function($) {
 		});
 		
 		//add some elements with animate effect
-
     var iOS = false,
         p = navigator.platform;
 
@@ -130,21 +127,6 @@ jQuery(document).ready(function($) {
 				return false;
 		});
 
-	
-		// twitter feed
-		$(".twitter").tweet({
-			join_text: "auto",
-			username: "wrapbootstrap",
-			avatar_size: 20,
-			count: 1,
-			auto_join_text_default: "we said,",
-			auto_join_text_ed: "we",
-			auto_join_text_ing: "we were",
-			auto_join_text_reply: "we replied",
-			auto_join_text_url: "we were checking out",
-			loading_text: "loading tweets..."
-		});
-
 		//flexslider
 		$('.flexslider').flexslider({
 			animation: "fade",
@@ -157,7 +139,7 @@ jQuery(document).ready(function($) {
 
 		//
 });
-$(document).ready(function () {
-    $('#shell img').plaxify()
-    $.plax.enable()
-})
+ $(document).ready(function () {
+        $('#shell img').plaxify()
+        $.plax.enable()
+ })
