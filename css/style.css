@@ -121,11 +121,11 @@ h4.title {
 
 
 .row {
-	margin-bottom:30px;
+	margin-bottom:20px;
 }
 
 .row .row{
-	margin-bottom:30px;
+	margin-bottom:20px;
 }
 
 .row.nomargin {
@@ -264,7 +264,7 @@ header ul.nav li a {
 	font-weight:400;
 }
 .navbar .nav > li > a {
-  font-size:13px;
+  font-size:17px;
   color: #444;
   text-shadow: none;
 }
@@ -949,7 +949,7 @@ height:425px !important;
 	background:#fcfcfc;
 	position:relative;
 	margin:0;
-	padding:20px 0 10px;
+	padding:5px 0 0px;
 }
 
 
@@ -2371,7 +2371,9 @@ ul.the-icons {
 }
 
 @media (max-width: 768px) {
-
+	h1{
+		font-size: 30px;
+	}
 	#wrapper.boxed{
 		width:90%;
 		margin:0 auto;	

@@ -58,3 +58,7 @@
         $(window).scroll();
     });
 })(jQuery);
+ $(document).ready(function () {
+        $('#shell img').plaxify()
+        $.plax.enable()
+ })
